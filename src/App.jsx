@@ -32,6 +32,15 @@ function App() {
   const urlOGrito =
     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg/1200px-Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg";
 
+  const urlChivalry =
+    "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dicksee-Chivalry-1885.jpg";
+
+  const urlRomeuEJulieta =
+    "https://upload.wikimedia.org/wikipedia/commons/a/a3/DickseeRomeoandJuliet.jpg";
+
+  const urlTheAccolade =
+    "https://upload.wikimedia.org/wikipedia/commons/3/38/Accolade_by_Edmund_Blair_Leighton.jpg";
+
   return (
     <div className="App">
       <Card titulo="Cabeça Medusa (1597)" imagem={urlMedusa} width={500} />
@@ -57,6 +66,17 @@ function App() {
         width={500}
       />
       <Card titulo="Cleopatra (1640)" imagem={urlCleopatra} width={500} />
+
+      <Card titulo="Cavalheirismo (1885)" imagem={urlChivalry} width={500} />
+
+      <Card
+        titulo="Romeu e Julieta (1884)"
+        imagem={urlRomeuEJulieta}
+        width={500}
+      />
+
+      <Card titulo="O Elogio (1901)" imagem={urlTheAccolade} width={500} />
+
       <Card titulo="Monalisa (1503)" imagem={urlMonalisa} width={500} />
       <Card
         titulo="O filho do Homem (1964)"
